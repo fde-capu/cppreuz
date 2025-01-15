@@ -3,6 +3,6 @@
 
 # include <iostream>
 
-void ___die(bool, std::string, char = -1);
+void ___die(bool, std::string, char = -1, void(*)() = 0);
 
 #endif
